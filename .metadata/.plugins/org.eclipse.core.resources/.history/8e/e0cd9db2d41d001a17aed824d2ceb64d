@@ -1,0 +1,17 @@
+package com.bloodDoner.repository;
+
+import java.util.List;
+
+import com.bloodDoner.entity.bloodDoner;
+
+
+
+public interface IDonorDAO {
+	 List<bloodDoner> getAlldoner();
+	    bloodDoner getbloodDonerById(int donerId);
+	    void createDoner(bloodDoner doner);
+	    void updateDoner(bloodDoner doner);
+	    void deleteDoner(int articleId);
+	 
+
+}

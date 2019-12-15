@@ -1,0 +1,5 @@
+package com.bloodDoner.repository;
+
+public interface IDonorDAO {
+
+}

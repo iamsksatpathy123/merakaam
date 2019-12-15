@@ -1,0 +1,5 @@
+package com.bloodDoner.services;
+
+public interface IDonorService {
+
+}
